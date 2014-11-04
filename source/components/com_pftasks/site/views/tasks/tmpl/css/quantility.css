@@ -1,0 +1,60 @@
+/* quantility task */
+.end-date {
+    float:right;
+    margin-right: 10px;
+}
+.task-ritardo{
+    background-color: #b94a48 !important;
+}
+.task-in-tempo {
+    background-color: #468847 !important;
+}
+
+span.label.user,
+span.label.end-date {
+float: right;
+margin-right: 10px;
+height: 20px;
+line-height: 22px;
+font-weight: normal;
+font-size: 12px;
+text-shadow: 0px 0px 1px #000;
+}
+
+span.label.user {
+    text-shadow: none!important;
+background-color: #D2D2D2;
+color: #333;
+}
+
+span.label.end-date {
+    width: 100px;
+    width: 80px;
+    text-align: center;
+}
+span.label.label-important.very-high-priority,
+span.label.label-warning.high-priority,
+span.label.label-info.medium-priority,
+span.label.label-success.low-priority {
+    float: right;
+    margin-right: 291px;
+    clear: both;
+    margin-top: -33px;
+    text-align: center;
+width: 80px;
+height: 20px;
+line-height: 22px;
+opacity: 0.9;
+font-weight: normal;
+font-size: 12px;
+text-shadow: 0px 0px 1px #000;
+}
+
+.list-striped li, .list-striped dd, .row-striped .row, .row-striped .row-fluid {
+transition: .3s;
+}
+.list-striped li:hover, .list-striped dd:hover, .row-striped .row:hover, .row-striped .row-fluid:hover {
+background-color: #D5FDA8!important;
+}
+
+/* fine quantility */
